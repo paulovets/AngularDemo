@@ -1,0 +1,2 @@
+import { environment } from './../../environments/environment';
+export const baseURL = environment.test ? 'http://localhost:3000/' : 'https://jenya-pavlovets-dev-ed.my.salesforce-sites.com/services/apexrest/angulardemo';

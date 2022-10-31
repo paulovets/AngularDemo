@@ -1,0 +1,20 @@
+<apex:page doctype="html-5.0" standardStylesheets="false" showChat="false" applyBodyTag="false" applyHtmlTag="false" showHeader="false"
+    sidebar="false">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Angular 2 Interview Demo</title>
+        <base href="/AngularDemo/" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link href="/resource/1667210985000/AngularDemo/styles.8650fb021f9a669c2661.bundle.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <my-app></my-app>
+        <script type="text/javascript" src="{!URLFOR($Resource.AngularDemo, 'inline.e835656854b70205a43b.bundle.js')}"></script>
+        <script type="text/javascript" src="{!URLFOR($Resource.AngularDemo, 'polyfills.a70526bdd6e61c8c8dea.bundle.js')}"></script>
+        <script type="text/javascript" src="{!URLFOR($Resource.AngularDemo, 'main.46af9810c85aa956d56e.bundle.js')}"></script>
+    </body>
+</apex:page>
